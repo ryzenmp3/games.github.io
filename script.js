@@ -9,7 +9,7 @@
         link.type = 'text/css';
         // link.href = 'styles.css';
         // gunakan css sperti dibawah untuk penggunaan blogger ,
-        link.href = 'https://naskahkode.github.io/tes2/styles.css';
+        link.href = 'https://ryzenmp3.github.io/games.github.io/style.css';
         link.media = 'all';
         head.appendChild(link);
     }
