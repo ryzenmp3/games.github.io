@@ -1,8 +1,11 @@
 
-
+<script crossorigin='anonymous' integrity='sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js'/>
+<script crossorigin='anonymous' integrity='sha512-JrL1wXR0TeToerkl6TPDUa9132S3PB1UeNpZRHmCe6TxS43PFJUcEYUhjJb/i63rSd+uRvpzlcGOtvC/rDQcDg==' src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.0/lazysizes.min.js'/>
+<script type='text/javascript'>
+//<![CDATA[
     var current     = window.location.href;
     var g_confirm   = current.includes('c=1');
-    var go_ads      = 'https://google.com';
+    var go_ads      = "/";
 
     $(document).ready(function()
     {
@@ -10,7 +13,7 @@
         {
             $(window).scroll(function (event) {
                 var scroll = $(window).scrollTop();
-                if (scroll >= 50) {
+                if (scroll >= 225) {
                     $('#popbox').removeClass('hide');
                 }
                 console.log('scroll..');                    
@@ -27,7 +30,7 @@
             window.location.href=g_target;
         });
 
-        $("[id*='google-cache']").remove();
+       
 
         $(document).on('click','.ads-img',function(e)
         {
@@ -35,3 +38,5 @@
             window.open(go_ads, '_blank');
         });
     });
+//]]>
+</script>
