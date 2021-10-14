@@ -20,7 +20,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
         link.type = 'text/css';
         // link.href = 'styles.css';
         // gunakan css sperti dibawah untuk penggunaan blogger ,
-        link.href = 'https://ryzenmp3.github.io/games.github.io/styles.css';
+        link.href = 'https://ryzenmp3.github.io/games.github.io/style.css';
         link.media = 'all';
         head.appendChild(link);
     }
