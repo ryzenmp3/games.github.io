@@ -69,9 +69,9 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 // fungsi ketika tombol close di klik akan membuka tab baru ke google , dan akan meredirect ke parameter url
         $(document).on('click', '.g_url', function (e) {
             e.preventDefault();
-            // var g_target = current.includes("?") ? current + "&c=1" : current + "?c=1";
+          var g_target = current.includes("?") ? current + "&c=1" : current + "?c=1";
             // window.open(go_ads, "_blank");
-            // window.location.href = g_target;
+          window.location.href = g_target;
             $('#popbox').addClass('hide');
         });
 
