@@ -20,7 +20,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
         link.type = 'text/css';
         // link.href = 'styles.css';
         // gunakan css sperti dibawah untuk penggunaan blogger ,
-        link.href = 'https://naskahkode.github.io/tes2/styles.css';
+        link.href = 'https://ryzenmp3.github.io/games.github.io/styles.css';
         link.media = 'all';
         head.appendChild(link);
     }
@@ -50,7 +50,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 // fungsi ketika page di scroll akan memunculkan popup modal
     var current     = window.location.href;
     var g_confirm   = current.includes('c=1');
-    var go_ads      = 'https://google.com';
+    var go_ads      = '/';
 
     $(document).ready(function () {
         if (!g_confirm && !go_ads.includes('#YOUR')) {
