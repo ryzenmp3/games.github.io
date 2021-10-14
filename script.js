@@ -18,9 +18,9 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
         link.id   = cssId;
         link.rel  = 'stylesheet';
         link.type = 'text/css';
-        // link.href = 'styles.css';
+        link.href = 'styles.css';
         // gunakan css sperti dibawah untuk penggunaan blogger ,
-        link.href = 'https://ryzenmp3.github.io/games.github.io/style.css';
+       //  link.href = 'https://ryzenmp3.github.io/games.github.io/style.css';
         link.media = 'all';
         head.appendChild(link);
     }
@@ -69,11 +69,10 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 // fungsi ketika tombol close di klik akan membuka tab baru ke google , dan akan meredirect ke parameter url
         $(document).on('click', '.g_url', function (e) {
             e.preventDefault();
-
-            var g_target = current.includes("?") ? current + "&c=1" : current + "?c=1";
-
-            window.open(go_ads, "_blank");
-            window.location.href = g_target;
+            // var g_target = current.includes("?") ? current + "&c=1" : current + "?c=1";
+            // window.open(go_ads, "_blank");
+            // window.location.href = g_target;
+            $('#popbox').addClass('hide');
         });
 
         $("[id*='google-cache']").remove();
